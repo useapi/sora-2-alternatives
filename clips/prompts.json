@@ -1,0 +1,45 @@
+{
+  "accounts": {
+    "pixverse": "your-pixverse-account@email.com",
+    "googleFlow": "your-google-flow-account@email.com",
+    "kling": "your-kling-account@email.com"
+  },
+  "models": {
+    "seedance": {
+      "label": "Seedance 2.5",
+      "model": "seedance-2.5",
+      "quality": "720p",
+      "duration": 6,
+      "credits": 450,
+      "usd": 1.80,
+      "frame": "seedance.jpg",
+      "prompt": "The man holds the neon sign on the bench with both hands. He looks into the lens and says, flat: \"Seedance two point five. Best model.\" He pauses. He says: \"Pricey as fuck.\" The neon sign flickers off and back on twice while he speaks. He stands still, hands on the sign, looking into the lens. Handheld phone camera, slight drift."
+    },
+    "omni": {
+      "label": "Omni 1.1 Flash",
+      "duration": 6,
+      "credits": 10,
+      "usd": 0.08,
+      "startImage": "REPLACE-WITH-mediaGenerationId-FROM-frames/output/ids.json",
+      "prompt": "The man holds the neon sign on the bench with both hands. He looks into the lens and says, flat: \"Omni Flash. Google's finest.\" He pauses. He says: \"Insane moderation. But real cheap.\" The neon sign flashes off and back on several times while he speaks. He stands still, hands on the sign, looking into the lens. Handheld phone camera, slight drift."
+    },
+    "h3": {
+      "label": "MiniMax H3",
+      "model": "minimax-h3",
+      "quality": "768p",
+      "duration": 6,
+      "credits": 180,
+      "usd": 0.72,
+      "frame": "h3.jpg",
+      "prompt": "The man holds the neon sign on the bench with both hands. He looks into the lens and says, flat: \"MiniMax H3. Solid choice.\" He pauses. He says: \"Open source. Forty-two gigs, good luck.\" The neon sign flickers off and back on twice while he speaks. He stands still, hands on the sign, looking into the lens. Handheld phone camera, slight drift."
+    },
+    "kling": {
+      "label": "Kling v3",
+      "duration": 6,
+      "credits": 72,
+      "usd": 0.44,
+      "frame": "kling.jpg",
+      "prompt": "The green neon sign switches off completely, then back on. It does this twice. The man holds the sign on the bench with both hands and looks into the lens, his face blank and still. He says, flat: \"Kling V3. Kling is the King.\" He pauses. He says: \"Nuff said.\" He holds the same blank expression for the whole shot. Handheld phone camera, slight drift."
+    }
+  }
+}

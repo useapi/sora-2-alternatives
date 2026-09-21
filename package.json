@@ -1,0 +1,7 @@
+{
+  "name": "sora-2-alternatives",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Generate the same shot on four Sora 2 replacements via useapi.net (Seedance 2.5, Omni 1.1 Flash, MiniMax H3, Kling v3) with a per-clip cost report",
+  "license": "MIT"
+}

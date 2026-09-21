@@ -1,0 +1,23 @@
+{
+  "account": "your-google-flow-account@email.com",
+  "character": "Photoreal vertical phone video still, handheld, mid-shot from the waist up. A man in his late twenties stands behind a brushed steel workbench in a neon sign workshop: short black hair, thin glasses, plain black t-shirt. Bare pale wall behind him, nothing else in the room. He looks straight into the lens, mouth closed, expression flat. Natural phone-camera look, slight sensor noise, no colour grade.",
+  "frameTemplate": "Same man, same room, same framing as the reference image: he stands behind the brushed steel workbench, both hands resting on the top edge of a large upright neon sign standing on the bench in front of him. Change only the sign: it now reads \"{{TEXT}}\" in bright {{COLOUR}} neon tubing on a clear acrylic backing, spanning the width of the bench, reflecting in the steel. He looks straight into the lens, mouth closed, expression flat. Photoreal vertical phone video still, natural phone-camera look, slight sensor noise, no colour grade.",
+  "signs": {
+    "seedance": {
+      "text": "SEEDANCE 2.5",
+      "colour": "pink"
+    },
+    "omni": {
+      "text": "OMNI FLASH",
+      "colour": "warm amber-orange"
+    },
+    "h3": {
+      "text": "MINIMAX H3",
+      "colour": "cyan-blue"
+    },
+    "kling": {
+      "text": "KLING V3",
+      "colour": "green"
+    }
+  }
+}
