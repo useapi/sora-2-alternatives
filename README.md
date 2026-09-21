@@ -56,6 +56,6 @@ Clips land in `clips/output/` and the script prints the real credit cost the API
 
 [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=sora-2-alternatives) is an experimental REST API for AI services. These routes drive your own [PixVerse](https://pixverse.ai), [Google Flow](https://labs.google/flow) and [Kling](https://klingai.com) accounts, so you spend those platforms' consumer credits instead of metered developer-API pricing. One token reaches every service — the only thing that changes between the four models is the path and the model name. See the [model matrix](https://useapi.net/model-matrix?utm_source=github.com&utm_medium=referral&utm_campaign=sora-2-alternatives) for every API that carries a given model.
 
-Visit our [Discord Server](https://discord.gg/w28uK3cnmF) or [Telegram Channel](https://t.me/use_api) for support. Guides and demos on the [YouTube Channel](https://www.youtube.com/@midjourneyapi).
+Visit our [Discord Server](https://discord.gg/w28uK3cnmF) or [Telegram Channel](https://t.me/use_api) for support. Guides and demos on the [YouTube Channel](https://www.youtube.com/@useapi-net).
 
 *Prices were verified 2026-09-21 and vendors change promotions without notice — re-check before relying on any figure.*
