@@ -59,3 +59,7 @@ Clips land in `clips/output/` and the script prints the real credit cost the API
 Visit our [Discord Server](https://discord.gg/w28uK3cnmF) or [Telegram Channel](https://t.me/use_api) for support. Guides and demos on the [YouTube Channel](https://www.youtube.com/@useapi-net).
 
 *Prices were verified 2026-09-21 and vendors change promotions without notice — re-check before relying on any figure.*
+
+## License
+
+The example code in this repository is released under the [MIT License](./LICENSE). It covers the example scripts only, not the useapi.net service or API.
