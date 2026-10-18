@@ -4,6 +4,8 @@ OpenAI removes `sora-2`, `sora-2-pro` and the Videos API on **September 24, 2026
 
 📖 Full write-up with the pricing math, the curl for every route and five real clips: **[Sora 2 API Alternatives Compared, With Code](https://useapi.net/docs/articles/sora-2-api-alternatives)**
 
+The five clips side by side on YouTube: [Sora 2 API Alternatives Compared, With Code: Seedance 2.5, Omni Flash, MiniMax H3, Kling v3](https://youtube.com/shorts/W5vXcM2cCJs)
+
 ## The short version (six-second clip, verified September 2026)
 
 | Model | Route | Cost | Note |
