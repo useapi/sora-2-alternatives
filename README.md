@@ -2,15 +2,15 @@
 
 OpenAI removed `sora-2`, `sora-2-pro` and the Videos API on September 24, 2026, and its [deprecations table](https://developers.openai.com/api/docs/deprecations) names no replacement. Sora 2 is no longer available through useapi.net either. These are runnable examples for the four that do the same job, all through one [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=sora-2-alternatives) token — [Seedance 2.5](https://useapi.net/docs/api-pixverse-v2), [Omni 1.1 Flash](https://useapi.net/docs/api-google-flow-v1), [MiniMax H3](https://useapi.net/docs/api-pixverse-v2) and [Kling v3](https://useapi.net/docs/api-kling-v1).
 
-Full write-up with the pricing math, the curl for every route and five real clips: **[Sora 2 API Alternatives Compared, With Code](https://useapi.net/docs/articles/sora-2-api-alternatives)**
+Full write-up with the pricing math, the curl for every route and five real clips: [Sora 2 API Alternatives Compared, With Code](https://useapi.net/docs/articles/sora-2-api-alternatives)
 
 The five clips side by side on YouTube: [Sora 2 API Alternatives Compared, With Code: Seedance 2.5, Omni Flash, MiniMax H3, Kling v3](https://youtube.com/shorts/W5vXcM2cCJs). The reel opens with a Sora 2 farewell clip, generated before OpenAI shut down Sora 2 on September 24, 2026. Sora 2 is no longer available.
 
-## The short version (six-second clip, verified September 2026)
+## The short version (six-second clip, prices as of September 21, 2026)
 
 | Model | Route | Cost | Note |
 |---|---|---:|---|
-| **Omni 1.1 Flash** | Google Flow | **$0.08** | 360p or 720p, free upscale to 1080p |
+| Omni 1.1 Flash | Google Flow | $0.08 | 360p or 720p, free upscale to 1080p |
 | Kling v3 | Kling | $0.44 | up to 4K, derives aspect from the frame |
 | MiniMax H3 | PixVerse | $0.72 | 768p or 1440p, no 720p tier |
 | Seedance 2.5 | PixVerse | $1.80 | reference audio and video, via create-fusion |
@@ -56,9 +56,9 @@ That call no longer runs: the API now answers `400` to `sora-2` and `sora-2-pro`
 
 ## Three things that will bite you
 
-- **Duration grids differ.** Sora 2 took 4, 8 or 12 seconds. Omni 1.1 Flash takes 4/6/8/10, MiniMax H3 5–15, Kling v3 3–15, Seedance 2.5 4–30. A hard-coded value will not port.
-- **Resolutions are not uniform.** Omni tops out at 720p natively, H3 skips 720p entirely (768p or 1440p), Seedance reaches 1080p, Kling goes to 4K. Pick your finishing size before you shoot.
-- **Google Flow defaults to landscape.** `aspectRatio` is `landscape` unless you say otherwise, and a portrait start frame does **not** override it. PixVerse and Kling both derive the aspect from the frame.
+- Duration grids differ. Sora 2 took 4, 8 or 12 seconds. Omni 1.1 Flash takes 4/6/8/10, MiniMax H3 5–15, Kling v3 3–15, Seedance 2.5 4–30. A hard-coded value will not port.
+- Resolutions are not uniform. Omni tops out at 720p natively, H3 skips 720p entirely (768p or 1440p), Seedance reaches 1080p, Kling goes to 4K. Pick your finishing size before you shoot.
+- Google Flow defaults to landscape. `aspectRatio` is `landscape` unless you say otherwise, and a portrait start frame does not override it. PixVerse and Kling both derive the aspect from the frame.
 
 ## About useapi.net
 
@@ -66,7 +66,7 @@ That call no longer runs: the API now answers `400` to `sora-2` and `sora-2-pro`
 
 Visit our [Discord Server](https://discord.gg/w28uK3cnmF) or [Telegram Channel](https://t.me/use_api) for support. Guides and demos on the [YouTube Channel](https://www.youtube.com/@useapi-net).
 
-*Prices were verified 2026-09-21 and vendors change promotions without notice — re-check before relying on any figure.*
+*Prices are as of September 21, 2026, when the article was published, on the best per-credit monthly rate of each route. Vendors change plans and promotions without notice, so re-check before relying on any figure.*
 
 ## License
 
