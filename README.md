@@ -6,12 +6,12 @@ Full write-up with the pricing math, the curl for every route and five real clip
 
 The five clips side by side on YouTube: [Sora 2 API Alternatives Compared, With Code: Seedance 2.5, Omni Flash, MiniMax H3, Kling v3](https://youtube.com/shorts/W5vXcM2cCJs). The reel opens with a Sora 2 farewell clip, generated before OpenAI shut down Sora 2 on September 24, 2026. Sora 2 is no longer available.
 
-## The short version (six-second clip, prices as of September 21, 2026)
+## The short version (six-second clip, prices as of October 23, 2026)
 
 | Model | Route | Cost | Note |
 |---|---|---:|---|
 | Omni 1.1 Flash | Google Flow | $0.08 | 360p or 720p, free upscale to 1080p |
-| Kling v3 | Kling | $0.44 | up to 4K, derives aspect from the frame |
+| Kling v3 | Kling | $0.69 | up to 4K, derives aspect from the frame |
 | MiniMax H3 | PixVerse | $0.72 | 768p or 1440p, no 720p tier |
 | Seedance 2.5 | PixVerse | $1.80 | reference audio and video, via create-fusion |
 
@@ -66,7 +66,7 @@ That call no longer runs: the API now answers `400` to `sora-2` and `sora-2-pro`
 
 Visit our [Discord Server](https://discord.gg/w28uK3cnmF) or [Telegram Channel](https://t.me/use_api) for support. Guides and demos on the [YouTube Channel](https://www.youtube.com/@useapi-net).
 
-*Prices are as of September 21, 2026, when the article was published, on the best per-credit monthly rate of each route. Vendors change plans and promotions without notice, so re-check before relying on any figure.*
+*Prices are as of October 23, 2026, on the best per-credit monthly rate of each route. Vendors change plans and promotions without notice, so re-check before relying on any figure.*
 
 ## License
 
