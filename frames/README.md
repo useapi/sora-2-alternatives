@@ -1,6 +1,6 @@
 # One character, four signs — all free
 
-📖 Full walkthrough: [Sora 2 API Alternatives Compared, With Code](https://useapi.net/docs/articles/sora-2-api-alternatives)
+Full walkthrough: [Sora 2 API Alternatives Compared, With Code](https://useapi.net/docs/articles/sora-2-api-alternatives)
 
 `frames.mjs` generates the character once with [Nano Banana Pro](https://useapi.net/docs/api-google-flow-v1/post-google-flow-images), then passes it as `reference_1` to four more image requests that change only the sign's text and colour. That reference is the only thing keeping the same face, room and bench across clips made by three different vendors.
 

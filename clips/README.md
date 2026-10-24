@@ -1,6 +1,6 @@
 # The same shot, four Sora 2 replacements
 
-📖 Full walkthrough: [Sora 2 API Alternatives Compared, With Code](https://useapi.net/docs/articles/sora-2-api-alternatives)
+Full walkthrough: [Sora 2 API Alternatives Compared, With Code](https://useapi.net/docs/articles/sora-2-api-alternatives)
 
 `clips.mjs` sends each start frame to the model whose name is on the sign, polls until the clip is ready, downloads it, and prints the credit cost the API actually returned.
 

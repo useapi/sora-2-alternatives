@@ -1,10 +1,10 @@
 # Sora 2 API alternatives — the same shot on four replacements (useapi.net)
 
-OpenAI removes `sora-2`, `sora-2-pro` and the Videos API on **September 24, 2026**, and its [deprecations table](https://developers.openai.com/api/docs/deprecations) names no replacement. These are runnable examples for the four that do the same job, all through one [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=sora-2-alternatives) token — [Seedance 2.5](https://useapi.net/docs/api-pixverse-v2), [Omni 1.1 Flash](https://useapi.net/docs/api-google-flow-v1), [MiniMax H3](https://useapi.net/docs/api-pixverse-v2) and [Kling v3](https://useapi.net/docs/api-kling-v1).
+OpenAI removed `sora-2`, `sora-2-pro` and the Videos API on September 24, 2026, and its [deprecations table](https://developers.openai.com/api/docs/deprecations) names no replacement. Sora 2 is no longer available through useapi.net either. These are runnable examples for the four that do the same job, all through one [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=sora-2-alternatives) token — [Seedance 2.5](https://useapi.net/docs/api-pixverse-v2), [Omni 1.1 Flash](https://useapi.net/docs/api-google-flow-v1), [MiniMax H3](https://useapi.net/docs/api-pixverse-v2) and [Kling v3](https://useapi.net/docs/api-kling-v1).
 
-📖 Full write-up with the pricing math, the curl for every route and five real clips: **[Sora 2 API Alternatives Compared, With Code](https://useapi.net/docs/articles/sora-2-api-alternatives)**
+Full write-up with the pricing math, the curl for every route and five real clips: **[Sora 2 API Alternatives Compared, With Code](https://useapi.net/docs/articles/sora-2-api-alternatives)**
 
-The five clips side by side on YouTube: [Sora 2 API Alternatives Compared, With Code: Seedance 2.5, Omni Flash, MiniMax H3, Kling v3](https://youtube.com/shorts/W5vXcM2cCJs)
+The five clips side by side on YouTube: [Sora 2 API Alternatives Compared, With Code: Seedance 2.5, Omni Flash, MiniMax H3, Kling v3](https://youtube.com/shorts/W5vXcM2cCJs). The reel opens with a Sora 2 farewell clip, generated before OpenAI shut down Sora 2 on September 24, 2026. Sora 2 is no longer available.
 
 ## The short version (six-second clip, verified September 2026)
 
@@ -48,6 +48,12 @@ node clips.mjs <API_TOKEN> omni     # or just the cheap one, $0.08
 
 Clips land in `clips/output/` and the script prints the real credit cost the API returned. Generating all four needs [PixVerse](https://useapi.net/docs/start-here/setup-pixverse), [Google Flow](https://useapi.net/docs/start-here/setup-google-flow) and [Kling](https://useapi.net/docs/start-here/setup-kling) accounts, all covered by one [$15/month subscription](https://useapi.net/docs/subscription?utm_source=github.com&utm_medium=referral&utm_campaign=sora-2-alternatives).
 
+## The Sora 2 farewell clip (no longer runs, kept for reference)
+
+The reel's opening shot, the sign maker boxing up a SORA 2 sign, was made on `sora-2` through the [PixVerse API](https://useapi.net/docs/api-pixverse-v2?utm_source=github.com&utm_medium=referral&utm_campaign=sora-2-alternatives) before the shutdown: [watch the farewell clip](https://demo.useapi.net/discord-cdn-proxy/?https://cdn.discordapp.com/attachments/1239264794394234985/1551387331196362762/sora2-alt-clip-1-sora-2-farewell-pixverse-720p.mp4) (720p, eight seconds). Generated before OpenAI shut down Sora 2 on September 24, 2026. Sora 2 is no longer available, but the clip stays here as a comparison point.
+
+That call no longer runs: the API now answers `400` to `sora-2` and `sora-2-pro`. The scripts in this repo never call Sora 2, so a fresh run of `frames/` and `clips/` works as is. The original request is kept for reference in the [article](https://useapi.net/docs/articles/sora-2-api-alternatives#step-3-the-farewell-clip-on-sora-2-itself).
+
 ## Three things that will bite you
 
 - **Duration grids differ.** Sora 2 took 4, 8 or 12 seconds. Omni 1.1 Flash takes 4/6/8/10, MiniMax H3 5–15, Kling v3 3–15, Seedance 2.5 4–30. A hard-coded value will not port.
@@ -56,7 +62,7 @@ Clips land in `clips/output/` and the script prints the real credit cost the API
 
 ## About useapi.net
 
-[useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=sora-2-alternatives) is an experimental REST API for AI services. These routes drive your own [PixVerse](https://pixverse.ai), [Google Flow](https://labs.google/flow) and [Kling](https://klingai.com) accounts, so you spend those platforms' consumer credits instead of metered developer-API pricing. One token reaches every service — the only thing that changes between the four models is the path and the model name. See the [model matrix](https://useapi.net/model-matrix?utm_source=github.com&utm_medium=referral&utm_campaign=sora-2-alternatives) for every API that carries a given model.
+[useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=sora-2-alternatives) is a third-party REST API for AI services. These routes run on your [PixVerse](https://pixverse.ai), [Google Flow](https://labs.google/flow) and [Kling](https://klingai.com) subscriptions, so you spend those platforms' credits instead of metered developer-API pricing. One token reaches every service — the only thing that changes between the four models is the path and the model name. See the [model matrix](https://useapi.net/model-matrix?utm_source=github.com&utm_medium=referral&utm_campaign=sora-2-alternatives) for every API that carries a given model.
 
 Visit our [Discord Server](https://discord.gg/w28uK3cnmF) or [Telegram Channel](https://t.me/use_api) for support. Guides and demos on the [YouTube Channel](https://www.youtube.com/@useapi-net).
 
